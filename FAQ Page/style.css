@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.minus-btn{
+    display: none;
+}
+.show-text .minus-btn{
+    display: inline;
+}
+.show-text .plus-btn{
+    display: none;
+}
+.question-text{
+    display: none;
+}
+.show-text .question-text{
+    display: block;
+}
